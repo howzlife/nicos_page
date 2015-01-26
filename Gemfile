@@ -28,6 +28,9 @@ gem 'spring',        group: :development
 gem 'rambling-slider-rails'
 
 gem 'rails_12factor'
+
+# unicorn for deployment server
+gem 'unicorn'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
