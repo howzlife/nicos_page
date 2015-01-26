@@ -27,6 +27,7 @@ gem 'spring',        group: :development
 # for slider, cuz foundation 5 isn't doing anything good
 gem 'rambling-slider-rails'
 
+gem 'rails_12factor'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
