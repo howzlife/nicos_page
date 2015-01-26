@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+# for slider, cuz foundation 5 isn't doing anything good
+gem 'rambling-slider-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -41,4 +44,4 @@ gem 'spring',        group: :development
 #Gems for bootstrap
 gem 'bootstrap-sass', '~> 3.3.0'
 gem 'autoprefixer-rails'
-gem 'foundation-rails'
+gem 'foundation-rails', '5.4.3.1'

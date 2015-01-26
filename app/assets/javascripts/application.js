@@ -14,7 +14,11 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require foundation
+//= require jquery.rambling.slider
 //= require turbolinks
 //= require_tree .
 
+$(function() {
+  $('#main_slider').ramblingSlider({effect: 'slideDownRight'});
+});
 $(function(){ $(document).foundation(); });
