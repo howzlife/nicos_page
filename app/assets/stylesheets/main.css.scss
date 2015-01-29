@@ -11,7 +11,7 @@
 
 body {
 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 20px;
 }
 
@@ -32,8 +32,11 @@ body {
 .intro-text {
 	font-size: 50px;
 	color: #fff;
+  font-weight: 300;
 	text-align: center;
 	margin-top: 15%;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 .parallax-content {
   width: 100% !important;
@@ -42,7 +45,20 @@ body {
 	padding: 50px;
 	font-size: 50px;
 	background-color: #fff;
-}   
+  width: 100vw;
+
+} 
+
+.parallax-content.about_me .row{
+  margin-right: auto;
+  margin-left: auto;
+}  
+
+.parallax-content h1{
+  display: block;
+  width: 100vw;
+
+}
 
 // second div, cards CSS. 
 .card {
@@ -161,18 +177,22 @@ body {
 
 .about_me {
   background-color: #03263D;
-  color: #999999;
+  color: #fff;
+  letter-spacing: 0.05em;
 }
 
 .title {
   background-color: #000;
-  color: #999999;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
   padding: 0 0 10px 0;
+
 }
 
 .self_education {
-  background-color: #0B86D6;
-  color: #CCCCCC;
+  background-color: #008080;
+  color: #fff;
 }
 
 .self_img {
@@ -181,4 +201,5 @@ body {
   border-color: #3D2503;
   border-radius: 50px;
 }
+
     
